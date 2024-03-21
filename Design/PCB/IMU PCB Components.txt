@@ -1,0 +1,19 @@
+IMU PCB:
+Components:
+BNO005 Module - 1
+
+
+Connectors:
+BNO005 Module:
+6 pin male buck strip - 1 - IMU right side
+4 pin male buck strip - 1 - IMU left side
+
+
+Tracks:
+All tracks - std tolerance
+
+
+
+Other connector not on PCB:
+6 pin female buck strip - 1 - IMU right side
+4 pin female buck strip - 1 - IMU left side

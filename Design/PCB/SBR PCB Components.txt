@@ -1,0 +1,34 @@
+Power PCB:
+Components:
+A4988 driver module - 2
+lm2596 module - 1
+lipo buzzer - 1
+
+
+Connectors:
+Battery:
+2 pin JST male connector - 1 (high power - 3A to 5A max) - for LiPo
+
+A4988:
+4 pin male buck strip - 2 - for stepper motors 1A, 1B, 2A, 2B
+2 pin male buck strip - 2 - for shorting slp & rst
+4 pin male buck strip - 2 - for MS1, 2, 3, and enable 
+2 pin male buck strip - 2 - for Step, Dir
+
+LM2596S:
+2 pin male buck strip - 1 - for RPi power supply
+
+LiPo Buzzer:
+9 pin female buck strip 90° bent - 1 - for LiPo buzzer
+
+
+Tracks:
+Stepper tracks 1A, 1B, 2A, 2B - 1.5A tolerance
+JST to A4988 & LM2596 IN - 5A max tolerance
+All other tracks - std tolerance
+
+
+Other connector not on PCB Layout:
+1 pin female buck strip - 4 - for LM2596S
+8 pin female buck strip - 4 - for A4988
+
